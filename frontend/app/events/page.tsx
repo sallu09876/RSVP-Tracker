@@ -118,7 +118,7 @@ export default function EventsList() {
             }}
             onFocus={() => setShowSuggestions(true)}
             onBlur={() => {
-              // Delay hide to allow click on suggestion to register.
+              // Delay hide to allow click on suggestion to register
               setTimeout(() => setShowSuggestions(false), 200);
             }}
             className="input-field pl-12 py-3.5"
